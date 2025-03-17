@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
-  final String baseUrl = "http://172.23.142.46:5000"; // Nueva IP
+  final String baseUrl = "https://crud-w8in.onrender.com"; // Nueva IP
  // IP y puerto del backend
 
   Future<String?> _getToken() async {
